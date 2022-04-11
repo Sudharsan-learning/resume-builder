@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import React from "react";
-import "../resume.css";
 import DownloadIcon from "@mui/icons-material/Download";
 import Pdf from "react-to-pdf";
 
