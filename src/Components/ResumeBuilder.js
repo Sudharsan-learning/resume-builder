@@ -12,7 +12,7 @@ function ResumeBuilder({ contact, work, education, skill, summary }) {
     <>
       <Pdf targetRef={ref} filename="resume.pdf">
         {({ toPdf }) => (
-          <div className="text-center mt-5">
+          <div className="text-center mt-5 ">
             <Button variant="contained" startIcon={<DownloadIcon />} onClick={toPdf}>
               Download
             </Button>
